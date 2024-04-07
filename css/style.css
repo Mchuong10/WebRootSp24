@@ -1,0 +1,45 @@
+    .equal-height-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .equal-height-col {
+        margin-bottom: -99999px;
+        padding-bottom: 99999px;
+    }
+
+    .container-fluid {
+        overflow: hidden;
+    }
+
+    .bordered-div {
+        border: solid;
+    }
+
+    .col {
+        background-color: lavenderblush; /* Default color, can be overridden by media queries */
+    }
+
+    @media only screen and (min-width: 768px) {
+        .col {
+            background-color: lightgray;
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+        .col {
+            background-color: lightgoldenrodyellow;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .col {
+            background-color: lavender;
+        }
+    }
+
+    @media only screen and (orientation: landscape) {
+        body {
+            background-color: lightblue;
+        }
+    }
