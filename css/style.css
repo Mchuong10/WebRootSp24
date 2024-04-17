@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	font-family: 'SingleDayRegular';
 	font-weight: normal;
@@ -49,6 +50,30 @@ body {
 	font-style: normal;
 	background-color: #dda0dd;
 }
+=======
+    .equal-height-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .equal-height-col {
+        margin-bottom: -99999px;
+        padding-bottom: 99999px;
+    }
+
+    .container-fluid {
+        overflow: hidden;
+    }
+
+    .bordered-div {
+        border: solid;
+    }
+
+    .col {
+        background-color: lavenderblush; /* Default color, can be overridden by media queries */
+    }
+
+>>>>>>> 484f1c11b747a54a7008734dac661f0ab07453a7
     @media only screen and (min-width: 768px) {
         .col {
             background-color: lightgray;
