@@ -1,28 +1,43 @@
-
-body {
+* {
 	font-family: 'SingleDayRegular';
 	font-weight: normal;
 	font-style: normal;
-	font-size: 100%;
-	background-image: url("img\Screenshot 2023-11-12 214204.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	margin: 0 auto;
+	text-align: center;
+}
+body {
+	font-family: 'SingleDayRegular';
+	font-weight: bolder;
+	font-style: normal;
+	font-size: 130%;
+	background-color: aquamarine;
+	
 }
 
+h1 {
+	font-family: 'SingleDayRegular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 300%;
+}
+#nav {
+	font-family: 'SingleDayRegular';
+	font-size: 130%;
+	font-weight: bolder;
+	font-style: normal;
+	background-color: #98fb98;
+}
 
 .column12 {
 	font-family: 'SingleDayRegular';
 	font-size: 120%;
-	font-weight: normal;
+	font-weight: bolder;
 	font-style: normal;
 	background-color:#dda0dd;
 }
 .column1 {
 	font-family: 'SingleDayRegular';
 	font-size: 120%;
-	font-weight: normal;
+	font-weight: bolder;
 	font-style: normal;
 	background-color: #dda0dd;
 }
@@ -30,7 +45,7 @@ body {
 .column2 {
 	font-family: 'SingleDayRegular';
 	font-size: 120%;
-	font-weight: normal;
+	font-weight: bolder;
 	font-style: normal;
 	background-color: #dda0dd;
 }
@@ -38,7 +53,7 @@ body {
 .column3 {
 	font-family: 'SingleDayRegular';
 	font-size: 120%;
-	font-weight: normal;
+	font-weight: bolder;
 	font-style: normal;
 	background-color: #dda0dd;
 }
@@ -46,51 +61,32 @@ body {
 .column4 {
 	font-family: 'SingleDayRegular';
 	font-size: 120%;
-	font-weight: normal;
+	font-weight: bolder;
 	font-style: normal;
 	background-color: #dda0dd;
 }
-    .equal-height-row {
-        display: flex;
-        flex-wrap: wrap;
-    }
+.foo{
+	font-family: 'SingleDayRegular';
+	font-size: 120%;
+	font-weight: bolder;
+	font-style: normal;
+	background-color:#98fb98;
 
-    .equal-height-col {
-        margin-bottom: -99999px;
-        padding-bottom: 99999px;
-    }
+}
+li1 {
+	display: inline;
+	padding: 0.5em;
+}
+#a,
+#b,
+#c,
+#d {
+	font-family: 'SingleDayRegular';
+	font-size: 120%;
+	font-weight: bolder;
+	font-style: normal;
+	background-color: #dda0dd;
 
-    .container-fluid {
-        overflow: hidden;
-    }
+}
 
-    .bordered-div {
-        border: solid;
-    }
-
-    .col {
-        background-color: lavenderblush; /* Default color, can be overridden by media queries */
-    }
-    @media only screen and (min-width: 768px) {
-        .col {
-            background-color: lightgray;
-        }
-    }
-
-    @media only screen and (min-width: 992px) {
-        .col {
-            background-color: lightgoldenrodyellow;
-        }
-    }
-
-    @media only screen and (min-width: 1200px) {
-        .col {
-            background-color: lavender;
-        }
-    }
-
-    @media only screen and (orientation: landscape) {
-        body {
-            background-color: lightblue;
-        }
-    }
+   
